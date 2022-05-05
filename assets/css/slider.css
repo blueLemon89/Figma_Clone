@@ -1,0 +1,420 @@
+.slider__img__link{
+    /* background: url("/assets/img/fantasy-stone-portal-night-sky-4k-live-desktop.mp4"); */
+    position: relative;
+    background-repeat: no-repeat;
+    width: 1520px;
+    margin-right: -10px;
+    border-radius: 1px;
+    margin-top: 80px;
+
+}
+.text {
+    position: absolute;
+    width: 491px;
+    height: 176px;
+    left: 155px;
+    top: 218px;
+
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 88px;
+/* or 110% */
+
+
+    background: linear-gradient(140deg, #e27ea8 13.92%, #eea90a 92.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.sub__text{
+    position: absolute;
+    width: 518px;
+    height: 96px;
+    left: 155px;
+    top: 480px;
+
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #c5aeae;
+}
+.slider-left{
+    animation: slideleft 1.5s linear forwards;
+}
+@keyframes slideleft {
+    0%{
+        transform: translate(150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+/* 
+Content here 
+*/
+.section{
+    height: 1140px;
+    
+}
+.heading{
+    position: absolute;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 88px;
+    text-align: center;
+
+    background: linear-gradient(140deg, #e27ea8 13.92%, #eea90a 92.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.sub__heading{
+    position: absolute;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #a2c4c4;
+    
+}
+.img-link{
+    position: absolute;
+    border-radius: 40px;
+
+}
+.section__heading1{
+    
+    width: 198px;
+    height: 86px;
+    left: 317px;
+    top: 975px;
+}
+.section__sub__heading1{
+    position: absolute;
+    width: 579.98px;
+    height: 139.99px;
+    left: 126.35px;
+    top: 1120.29px;
+
+}
+.section__img1{
+    width: 560.56px;
+    height: 270.66px;
+    left: 808.78px;
+    top:1020.07px;
+}
+.section__heading2{
+    position: absolute;
+    width: 244px;
+    height: 78px;
+    left: 997px;
+    top: 1320px;
+
+}
+.section__sub__heading2{
+    position: absolute;
+    width: 579.98px;
+    height: 99.31px;
+    left: 816.66px;
+    top: 1470.36px;
+
+}
+.section__img2{
+
+    width: 560.3px;
+    height: 270.48px;
+    left: 110.07px;
+    top: 1398.32px;
+
+
+
+}
+
+.section__heading3{
+    position: absolute;
+    width: 495px;
+    height: 82px;
+    left: 119px;
+    top: 1699px;
+}
+.section__sub__heading3{
+    width: 579.98px;
+    height: 169.91px;
+    left: 122.15px;
+    top: 1852.31px;
+}
+.section__img3{
+    width: 560.58px;
+    height: 270.05px;
+    left: 797.22px;
+    top: 1735.75px;
+}
+
+/* Product */
+.product{
+    height: 690px;
+}
+.product__heading{
+    width: 407px;
+    height: 78px;
+    left: 555px;
+    top: 2032px;
+}
+.product1{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    width: 550px;
+    height: 45px;
+    left: 500px;
+    top: 2230px;
+
+    margin-left: -130px;
+    padding: 30px 150px 30px 150px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+
+    color: #f4f0f0;
+    background: linear-gradient(90deg, rgba(174, 148, 158, 0.8) 1.32%, rgba(236, 148, 142, 0.8) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px 0px 0px 0px;
+}
+.fa-solid{
+    justify-content: center;
+    font-size: 50px;
+}
+.product1__heading{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0 30px 0 30px;
+    font-family: 'Bai Jamjuree';
+}
+.product2{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    width: 550  px;
+    height: 45px;
+    left: 500px;
+    top: 2380px;
+    margin-left: -130px;
+    padding: 30px 150px 30px 150px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+
+    color: #f4f0f0;
+    background: linear-gradient(90deg, rgba(174, 148, 158, 0.8) 1.32%, rgba(236, 148, 142, 0.8) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.product2__heading{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0 30px 0 30px;
+    font-family: 'Bai Jamjuree';
+}
+
+.product3{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    width: 550px;
+    height: 45px;
+    left: 500px;
+    top: 2530px;
+    margin-left: -130px;
+    padding: 30px 150px 30px 150px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+
+    color: #f4f0f0;
+    background: linear-gradient(90deg, rgba(174, 148, 158, 0.8) 1.32%, rgba(236, 148, 142, 0.8) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0px 40px 0;
+}
+.product3__heading{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0 30px 0 30px;
+    font-family: 'Bai Jamjuree';
+}
+
+/* Members */
+.members__heading{
+    position: absolute;
+    width: 453px;
+    height: 86px;
+    left: 564px;
+    top: 2728px;
+
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 88px;
+    /* or 138% */
+
+    text-align: center;
+
+    background: linear-gradient(140deg, #e27ea8 13.92%, #eea90a 92.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.member1 .member__img{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 183px;
+    top: 2953.73px;
+
+    border-radius: 50%;
+    border: 8px double rgb(220, 145, 145);
+}
+
+.member1 .member__icon{
+    position: absolute;
+    top: 3313.73px;
+    left: 275px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.fa-facebook:hover, .fa-linkedin-in:hover, .fa-twitter:hover{
+    color: rgba(103, 55, 98, 0.904);
+    cursor: pointer;
+}
+.member1 .member__info{
+    position: absolute;
+    width: 300px;
+    height: 92.79px;
+    left: 200px;
+    top: 3383.73px;
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 14px;
+    color:#3b3b3e;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(174, 148, 158, 0.8) 1.32%, rgba(236, 148, 142, 0.8) 100%);
+}
+
+.member2 .member__img{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 638px;
+    top: 2953.73px;
+
+    border-radius: 50%;
+    border: 8px double rgb(220, 145, 145);
+}
+.member2 .member__icon{
+    position: absolute;
+    top: 3313.73px;
+    left: 1185px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: white;
+}
+.member2 .member__info{
+    position: absolute;
+    width: 300px;
+    height: 92.79px;
+    left: 650px;
+    top: 3383.73px;
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 14px;
+    color:#3b3b3e;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(174, 148, 158, 0.8) 1.32%, rgba(236, 148, 142, 0.8) 100%);
+}
+.member3 .member__img{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 1093px;
+    top: 2953.73px;
+
+    border-radius: 50%;
+    border: 8px double rgb(220, 145, 145);
+}
+.member3 .member__icon{
+    position: absolute;
+    top: 3313.73px;
+    left: 730px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: white;
+}
+.member3 .member__info{
+    position: absolute;
+    width: 300px;
+    height: 92.79px;
+    left: 1110px;
+    top: 3383.73px;
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 14px;
+    color:#3b3b3e;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(174, 148, 158, 0.8) 1.32%, rgba(236, 148, 142, 0.8) 100%);
+}
+.member4 .member__img{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 638px;
+    top: 3553.73px;
+    border-radius: 50%;
+    border: 8px double rgb(220, 145, 145);
+}
+.member4 .member__icon{
+    position: absolute;
+    top: 3913px;
+    left: 730px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: white;
+}
+.member4 .member__info{
+    position: absolute;
+    width: 300px;
+    height: 92.79px;
+    left: 650px;
+    top: 3993px;
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 14px;
+    color:#3b3b3e;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(174, 148, 158, 0.8) 1.32%, rgba(236, 148, 142, 0.8) 100%);
+}
